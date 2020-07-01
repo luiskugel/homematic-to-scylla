@@ -1,0 +1,6 @@
+{
+  "cassandra_secure_connect_bundle": "",
+  "cassandra_username": "",
+  "cassandra_password": "",
+  "cassandra_keyspace": ""
+}

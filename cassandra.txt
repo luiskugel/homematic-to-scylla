@@ -1,0 +1,13 @@
+CREATE TABLE homematicData(
+  ise_id int,
+  value text,
+  valuetype text,
+  valueunit text,
+  timestamp int,
+  operations int,
+  deviceName text,
+  date timestamp,
+  PRIMARY KEY(deviceName, date)
+);
+
+INSERT INTO homematicdata (devicename, ise_id, value, valuetype, valueunit, timestamp, operations) VALUES ( ?, ?, ?, ?, ?, ?, ?);
